@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mariella Bakukasi Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body, h1, h2, h3, h4, h5, h6 {font-family: "Montserrat", sans-serif}
+        .w3-sidebar {width: 120px; background: #333;}
+        #main {margin-left: 120px}
+        @media only screen and (max-width: 600px) {
+            #main, .w3-sidebar {margin-left: 0; width: 100%; min-width: 100%;}
+        }
+    </style>
+</head>
+<body class="w3-black">
+
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+    <!-- Profile image -->
+    <img src="marie/1697899306000.jpg" style="width:100%">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+        <i class="fa fa-home w3-xxlarge"></i>
+        <p>HOME</p>
+    </a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+        <i class="fa fa-user w3-xxlarge"></i>
+        <p>ABOUT</p>
+    </a>
+    <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+        <i class="fa fa-laptop w3-xxlarge"></i>
+        <p>PROJECTS</p>
+    </a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+        <i class="fa fa-envelope w3-xxlarge"></i>
+        <p>CONTACT</p>
+    </a>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+    <!-- Header/Home -->
+    <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+        <h1 class="w3-jumbo">I'm Mariella Bakukasi.</h1>
+        <p>Aspiring Web Developer and Designer.</p>
+        <img src="marie/1697899693004.jpg" alt="Mariella" class="w3-image" width="992" height="1108">
+    </header>
+
+    <!-- About Section -->
+    <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+        <h2>About Me</h2>
+        <hr style="width:200px" class="w3-opacity">
+        <p> <p>I am Mariella Bakukasi from Port Moresby, Papua New Guinea. Born in 2003, I navigated significant health challenges to complete my education. Initially passionate about landscaping, I shifted to business and now pursue a Diploma in Business Computing at Kokopo Business College, a field I have grown to love. My hobbies include baking, watching movies, listening to my favorite songs, and annoying that someone in particular. Driven by a passion to secure a fulfilling job, I aim to someday have all that the world has to offer. Supported by my family, I am committed to pursuing my dreams with resilience and determination.</p></p>
+        <!-- Skills Section -->
+        <h3>My Skills</h3>
+        <!-- Progress bars for skills will go here -->
+        <p>Technical Skills</p>
+        <div class="w3-light-grey w3-round">
+            <div class="w3-container w3-dark-grey w3-round" style="height:24px;width:50%"></div>
+        </div>
+        <p>Frame Works</p>
+        <div class="w3-light-grey w3-round">
+            <div class="w3-container w3-dark-grey w3-round" style="height:24px;width:25%"></div>
+        </div>
+        <p>Programming Language</p>
+        <div class="w3-light-grey w3-round">
+            <div class="w3-container w3-dark-grey w3-round" style="height:24px;width:15%"></div>
+        </div>
+        <p>Tools</p>
+        <div class="w3-light-grey w3-round">
+            <div class="w3-container w3-dark-grey w3-round" style="height:24px;width:10%"></div>
+    </div>
+</div>
+    <!-- Projects Section -->
+    <div class="w3-padding-64 w3-content" id="projects">
+        <h2>Projects</h2>
+        <hr style="width:200px" class="w3-opacity">
+    <!-- Example Project -->
+    <div class="w3-row">
+        <div class="w3-col m6 w3-margin-bottom">
+            <img src="marie/KBC+Logo+2023.jpg" alt="Project Title" style="width:20%">
+            <h3>Internet Assignment</h3>
+            <p>Designing a web page using Visual Studio...</p>
+            <!-- Button linking to GitHub -->
+            <a href="https://github.com/Mariella Bakukasi/projectname" target="_blank" class="w3-button w3-light-grey">
+                <i class="fa fa-github"></i> View on GitHub
+            </a>
+            <!-- Button linking to detailed project page -->
+    
+            </a>
+        </div>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Contact Section -->
+    <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+        <h2>Contact Me</h2>
+        <hr style="width:200px" class="w3-opacity">
+        <div class="w3-section">
+            <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> East New Britain Province, Papua New Guinea</p>
+            <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> + 675 74576761</p>
+            <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> bakukasi_mariella@kbc.ac.pg</p>
+        </div>
+        <p>Swing by for a cup of coffee, or leave me a note:</p>
+        <form action="/submit_form" method="post">
+            <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+            <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+            <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+            <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+            <p>
+                <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+                    <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                </button>
+            </p>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+        <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+    </footer>
+</div>
+
+</body>
+</html>
